@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+:root {
+  border: 2px solid transparent;
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  --orangeColor: #ee7042;
+  --backgroundColor: #1c3381;
+  --deepBlack: #060606;
+  --whiteColor: #ffffff;
+  --grayColor: #a8afc7;
+  --lightGray: #eeeff4;
+  --greenColor: #219653;
+}

@@ -1,0 +1,142 @@
+.RobotICT {
+  background-color: var(--whiteColor);
+}
+
+.appTitle {
+  padding: 10px 0px 10px 80px;
+  color: var(--orangeColor);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1.4rem, 2vw, 1.875rem);
+  background-color: var(--backgroundColor);
+  box-shadow: 0px 1.5px 2px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.pageDescription {
+  width: 60%;
+  margin: auto;
+  padding-top: 5rem;
+}
+.appDescription {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 28px;
+  color: var(--deepBlack);
+}
+.wordOutput {
+  width: 55%;
+  margin: auto;
+  padding-left: 2rem;
+}
+
+.firstCondition,
+.secondCondition,
+.thirdCondition {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  grid-gap: 0.4rem;
+}
+.appForm {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.inputField {
+  border: 2px solid var(--grayColor);
+  outline: var(--grayColor);
+  border-radius: 5px;
+  padding: 10px;
+  width: 45%;
+}
+.btnSubmit {
+  padding: 10px 22px;
+  border-radius: 5px;
+  margin-left: 1rem;
+  background-color: var(--backgroundColor);
+  color: var(--whiteColor);
+  border: none;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background-color: var(--greenColor);
+}
+
+.result {
+  max-width: 74%;
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.resultHeader {
+  padding: 10px 0px 10px 10px;
+  color: var(--whiteColor);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: var(--backgroundColor);
+}
+.list {
+  margin: 1rem 0 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding-left: 0;
+}
+
+.word {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  color: var(--deepBlack);
+  margin: 0;
+}
+.listItem {
+  border: 1px solid var(--grayColor);
+  padding: 12px 12px 12px 40px;
+  list-style: none;
+  color: var(--deepBlack);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.list li:nth-child(odd) {
+  background-color: var(--lightGray);
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+  .list {
+    text-align: center;
+  }
+  .pageDescription {
+    width: 90%;
+  }
+  .appDescription {
+    text-align: unset;
+    margin-left: 2rem;
+  }
+  .wordOutput {
+    width: 90%;
+  }
+  .inputField {
+    width: 80%;
+  }
+}
