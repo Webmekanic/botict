@@ -1,8 +1,8 @@
 # Robotict
 An Application that go through numbers from 1 to 100
 
+<img src="https://i.ibb.co/gSXHgnj/Robotict-image.png" alt="Robotict-image" border="0" width="100%">
 
-This is a solution to the developer exercise
 
  - [Live Demo](https://myrobotict.meteorapp.com/)
  
